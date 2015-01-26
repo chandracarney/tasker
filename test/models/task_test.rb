@@ -6,6 +6,6 @@ class TaskTest < ActiveSupport::TestCase
   end
 
   test "it is false" do
-    assert false
+    refute false
   end
 end
